@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twisting Coin - Professional Coin Flip</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <header class="header">
+          <h1 class="title">Twisting Coin</h1>
+          <p class="subtitle">Experience the perfect digital coin flip</p>
+        </header>
+
+        <main class="main-content">
+          <div class="coin-container">
+            <div class="coin" id="coin">
+              <div class="coin-side coin-black">
+                <div class="coin-inner">
+                  <div class="coin-text-black">Black</div>
+                  <div class="coin-border"></div>
+                </div>
+              </div>
+              <div class="coin-side coin-white">
+                <div class="coin-inner">
+                  <div class="coin-text">White</div>
+                  <div class="coin-border"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="controls">
+            <button class="flip-btn" id="flipBtn">
+              <span class="btn-text">Flip Coin</span>
+              <div class="btn-ripple"></div>
+            </button>
+          </div>
+
+          <div class="result-display" id="resultDisplay">
+            <div class="result-text" id="resultText">
+              Click to flip the coin
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
